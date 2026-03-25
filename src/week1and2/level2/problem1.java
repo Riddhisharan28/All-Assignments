@@ -9,5 +9,7 @@ public static void main(String[] args){
         int perimeter = sc.nextInt();
         double side = perimeter / 4.0;
         System.out.println("The length of the side is " + side + " whose perimeter is " + perimeter);
+        sc.close();
     }
+    
 }
